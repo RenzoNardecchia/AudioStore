@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioStore</title>
+    <script src="js/script.js" defer></script>
+    <script src="js/purchaseScreen.js" defer></script>
+    <link rel="stylesheet" href="css/purchaseScreenStyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.35/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">AudioStore</a>
+    </header>
+    <main>
+        <div class="mainContainer">
+            <div class="returnBtnContainer">
+                <a href="index.html" class="returnBtn">< Regresar</a>
+            </div>
+            <div class="purchaseDescriptionContainer">
+                <div class="purchaseDescription">
+                    <div class="description">
+                        <p class="descriptionTitle">Detalle de tu compra</p>
+                        <div class="descriptionTextContainer">
+                        </div>
+                    </div>
+                </div>
+                <div class="nameButtons">
+                    <!-- <div class="imageContainer">
+                        <img src="images/bag.jpg" alt="">
+                    </div> -->
+                    <div class="discountContainer">
+                        <p class="discountLabel">Tienes un cupón de descuento?</p>
+                        <div class="discountButtons">
+                            <input type="text" class="discountInput" maxlength="20">
+                            <div class="applyDiscountBtn">Aplicar</div>
+                        </div>
+                    </div>
+                    <div class="confirmPurchase" id="buy">Finalizar compra</div>
+                    <p class="or">ó</p>
+                    <a href="index.html" class="keepBuying" id="keepBuying">Seguir comprando</a>
+                    <div class="cancelPurchase">Cancelar compra</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
